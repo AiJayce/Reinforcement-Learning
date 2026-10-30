@@ -63,7 +63,7 @@ To establish a foundation in reinforcement learning (RL) for its application to 
 ----------------
 # Applications in Bioinformatics
 
-<img width="1024" height="434" alt="image" src="https://github.com/user-attachments/assets/300c99e0-7007-4a5a-ad6e-45555d939e1e" />
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/eaa7e2bb-3cab-4fc2-ba2d-104ed096e7b7" />
 
 ## Motivation
 
