@@ -36,13 +36,13 @@ By integrating biological knowledge into reward functions, RL can complement con
 
 To establish a foundation in reinforcement learning (RL) for its application to bioinformatics, two tutorials were conducted using different RL algorithms: DQN and A3C. Each tutorial explored how an agent learns through states, actions, and rewards.
 
-## [1. CartPole — Deep Q-Network (DQN)]([https://github.com/AiJayce/scDQ-path/tree/scDQpath](https://github.com/AiJayce/Reinforce-Learning/tree/Cart-pole))
+## [1. CartPole — Deep Q-Network (DQN)](https://github.com/AiJayce/scDQ-path/tree/scDQpath](https://github.com/AiJayce/Reinforce-Learning/tree/Cart-pole)
    - State: Cart position and velocity, and pole angle and angular velocity.
    - Action: Move the cart to the left or right.
    - Reward: Receive a positive reward for each time step the pole remains balanced.
    - Algorithm: DQN uses a deep neural network to estimate the Q-value of each action in a given state and selects actions to maximize cumulative future rewards.
 
-## [2. Atari Breakout — Asynchronous Advantage Actor-Critic (A3C)]([[https://github.com/AiJayce/scDQ-path/tree/scDQpath](https://github.com/AiJayce/Reinforce-Learning/tree/Cart-pole)](https://github.com/AiJayce/Reinforce-Learning/tree/Breakout))
+## [2. Atari Breakout — Asynchronous Advantage Actor-Critic (A3C)]([https://github.com/AiJayce/scDQ-path/tree/scDQpath](https://github.com/AiJayce/Reinforce-Learning/tree/Cart-pole)](https://github.com/AiJayce/Reinforce-Learning/tree/Breakout)
    - State: The game screen, including the ball, paddle, and remaining bricks, represented as image frames.
    - Action: Move the paddle or perform other available game actions.
    - Reward: Gain positive rewards by breaking bricks and maximize the score while avoiding losing the ball.
