@@ -71,6 +71,6 @@ Reinforcement Learning (RL) provides an alternative by learning state transition
 
 Motivated by this potential, the following projects explore RL as a complementary bioinformatics approach, focusing on cellular state transitions, trajectory exploration, and gene regulatory dynamics.
 
-## scDQ-path
+## 1. [scDQ-path](https://github.com/AiJayce/scDQ-path/tree/scDQpath)
 
 Trajectory-based cellular dynamics analysis, gene regulatory network (GRN) construction, and knockout (KO)-based virtual cell studies using scRNA-seq data primarily rely on artificial temporal axes defined by pseudotime. However, these approaches inherently introduce temporal uncertainty when inferring sequential changes in cellular states and may incorporate atypical cell states that can introduce noise into network dynamics inference. To address these limitations, scDQ-path was developed to provide a more flexible framework for exploring transitions between target cellular states and investigating gene regulatory dynamics.
