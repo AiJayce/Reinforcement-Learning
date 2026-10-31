@@ -2,8 +2,6 @@
 
 <img width="1025" height="415" alt="image" src="https://github.com/user-attachments/assets/af7c6c92-9ff5-4f8e-bda4-83f193dc75dd" />
 
-## Introduction
-
 Reinforcement Learning (RL) is a machine learning paradigm in which an agent learns to make sequential decisions by interacting with an environment and maximizing cumulative rewards. Unlike supervised learning, RL does not require labeled answers for every decision; instead, it improves its policy through reward-driven experience.
 
 ### Core Concepts
