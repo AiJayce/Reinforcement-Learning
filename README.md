@@ -42,7 +42,7 @@ To establish a foundation in reinforcement learning (RL) for its application to 
    - Reward: Receive a positive reward for each time step the pole remains balanced.
    - Algorithm: DQN uses a deep neural network to estimate the Q-value of each action in a given state and selects actions to maximize cumulative future rewards.
 
-## [2. Atari Breakout — Asynchronous Advantage Actor-Critic (A3C)](https://github.com/AiJayce/Reinforce-Learning/tree/Cart-pole)](https://github.com/AiJayce/Reinforce-Learning/tree/Breakout)
+## [2. Atari Breakout — Asynchronous Advantage Actor-Critic (A3C)](https://github.com/AiJayce/Reinforce-Learning/tree/Breakout)
    - State: The game screen, including the ball, paddle, and remaining bricks, represented as image frames.
    - Action: Move the paddle or perform other available game actions.
    - Reward: Gain positive rewards by breaking bricks and maximize the score while avoiding losing the ball.
