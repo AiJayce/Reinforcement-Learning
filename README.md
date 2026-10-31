@@ -65,11 +65,8 @@ To establish a foundation in reinforcement learning (RL) for its application to 
 
 ## Motivation
 
-Biological systems are dynamic, involving continuous changes in gene expression, cellular differentiation, and responses to external stimuli. However, conventional bioinformatics approaches often focus on identifying statistical associations and structural patterns in observed data, making it challenging to investigate potential transition pathways without explicit transition labels.
+Biological systems continuously change through gene expression, cellular differentiation, and responses to external stimuli. However, conventional bioinformatics approaches primarily identify statistical associations and structural patterns, limiting their ability to explore potential cellular transition pathways.
 
-Reinforcement Learning (RL) offers an alternative framework by learning state transitions through reward-driven optimization. By defining cellular states in gene expression or latent spaces and designing reward functions around biological objectives, RL can explore potential transition trajectories, compare alternative pathways, and investigate the long-term effects of gene perturbations.
+Reinforcement Learning (RL) provides an alternative by learning state transitions through reward-driven optimization. By defining cellular states in gene expression or latent spaces, RL can explore transition trajectories and investigate the effects of gene perturbations.
 
-This motivated me to explore RL as a complementary approach to bioinformatics, focusing on cellular state transitions, trajectory exploration, and gene regulatory dynamics.
-Furthermore, modeling cellular state transitions based on gene expression can reveal associations between changes in gene expression and transition trajectories. Integrating perturbation data, such as gene knockouts or drug treatments, may extend this approach to investigating how specific interventions influence cellular state transitions.
-
-Building on these possibilities, the following projects were conducted to establish a foundational understanding of RL and investigate its potential application to bioinformatics, particularly in exploring dynamic changes in cellular states and potential transition trajectories.
+Motivated by this potential, the following projects explore RL as a complementary bioinformatics approach, focusing on cellular state transitions, trajectory exploration, and gene regulatory dynamics.
