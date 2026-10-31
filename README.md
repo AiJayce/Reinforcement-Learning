@@ -36,23 +36,17 @@ By integrating biological knowledge into reward functions, RL can complement con
 
 To establish a foundation in reinforcement learning (RL) for its application to bioinformatics, two tutorials were conducted using different RL algorithms: DQN and A3C. Each tutorial explored how an agent learns through states, actions, and rewards.
 
-## 1. **CartPole — Deep Q-Network (DQN)**
+## [1. CartPole — Deep Q-Network (DQN)]([https://github.com/AiJayce/scDQ-path/tree/scDQpath](https://github.com/AiJayce/Reinforce-Learning/tree/Cart-pole))
    - State: Cart position and velocity, and pole angle and angular velocity.
    - Action: Move the cart to the left or right.
    - Reward: Receive a positive reward for each time step the pole remains balanced.
    - Algorithm: DQN uses a deep neural network to estimate the Q-value of each action in a given state and selects actions to maximize cumulative future rewards.
 
-### Page at : https://github.com/AiJayce/Reinforce-Learning/tree/Cart-pole
-
-## 2. **Atari Breakout — Asynchronous Advantage Actor-Critic (A3C)**
+## [2. Atari Breakout — Asynchronous Advantage Actor-Critic (A3C)]([[https://github.com/AiJayce/scDQ-path/tree/scDQpath](https://github.com/AiJayce/Reinforce-Learning/tree/Cart-pole)](https://github.com/AiJayce/Reinforce-Learning/tree/Breakout))
    - State: The game screen, including the ball, paddle, and remaining bricks, represented as image frames.
    - Action: Move the paddle or perform other available game actions.
    - Reward: Gain positive rewards by breaking bricks and maximize the score while avoiding losing the ball.
    - Algorithm: A3C combines an Actor, which learns a policy for selecting actions, and a Critic, which estimates the state value. Multiple agents interact with the environment in parallel and asynchronously update shared model parameters to improve learning efficiency.
-
-### Page at : https://github.com/AiJayce/Reinforce-Learning/tree/Breakout
-
-
 
 
 
@@ -71,6 +65,6 @@ Reinforcement Learning (RL) provides an alternative by learning state transition
 
 Motivated by this potential, the following projects explore RL as a complementary bioinformatics approach, focusing on cellular state transitions, trajectory exploration, and gene regulatory dynamics.
 
-## 1. [scDQ-path](https://github.com/AiJayce/scDQ-path/tree/scDQpath)
+## [1. scDQ-path](https://github.com/AiJayce/scDQ-path/tree/scDQpath)
 
 Trajectory-based cellular dynamics analysis, gene regulatory network (GRN) construction, and knockout (KO)-based virtual cell studies using scRNA-seq data primarily rely on artificial temporal axes defined by pseudotime. However, these approaches inherently introduce temporal uncertainty when inferring sequential changes in cellular states and may incorporate atypical cell states that can introduce noise into network dynamics inference. To address these limitations, scDQ-path was developed to provide a more flexible framework for exploring transitions between target cellular states and investigating gene regulatory dynamics.
