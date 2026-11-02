@@ -67,4 +67,22 @@ Motivated by this potential, the following projects explore RL as a complementar
 
 ## [1. scDQ-path](https://github.com/AiJayce/scDQ-path/tree/scDQpath)
 
-Trajectory-based cellular dynamics analysis, gene regulatory network (GRN) construction, and knockout (KO)-based virtual cell studies using scRNA-seq data primarily rely on artificial temporal axes defined by pseudotime. However, these approaches inherently introduce temporal uncertainty when inferring sequential changes in cellular states and may incorporate atypical cell states that can introduce noise into network dynamics inference. To address these limitations, scDQ-path was developed to provide a more flexible framework for exploring transitions between target cellular states and investigating gene regulatory dynamics.
+**scDQ-path** is a reinforcement learning-based framework for exploring single-cell dynamics and generating perturbation-associated virtual cells.
+
+### Algorithm
+- Compresses high-dimensional transcriptomic profiles into a 16-dimensional latent space using a Variational Autoencoder (VAE).
+- Employs Double Deep Q-Networks (Double DQN) to learn reward-guided cellular state transitions.
+- Explores optimal and alternative latent trajectories beyond conventional pseudotime-based inference.
+- Identifies dynamically varying transcription factors along inferred cellular trajectories.
+- Performs counterfactual gene knockout simulations through latent-space optimization with a frozen VAE decoder.
+- Constructs directed perturbation-response networks from simulated transcriptional changes.
+- Integrates multi-trajectory exploration with density-based probabilistic sampling to generate heterogeneous virtual cell populations.
+- Supports single-target and multi-target knockout simulations.
+
+### Key Novelty
+- Reinforcement learning-driven exploration of continuous latent-space trajectories.
+- Identification of alternative and potentially compensatory cellular response paths.
+- Integration of counterfactual perturbation modeling and density-guided virtual cell generation.
+
+### Core Technologies
+`Python` · `PyTorch` · `VAE` · `Double DQN` · `Reinforcement Learning` · `scRNA-seq`
