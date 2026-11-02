@@ -55,8 +55,6 @@ To establish a foundation in reinforcement learning (RL) for its application to 
 ----------------
 # Applications in Bioinformatics
 
-<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/85cb8d58-dfa4-4a34-8b5d-370faddc4ac8" />
-
 ### Motivation
 
 Biological systems continuously change through gene expression, cellular differentiation, and responses to external stimuli. However, conventional bioinformatics approaches primarily identify statistical associations and structural patterns, limiting their ability to explore potential cellular transition pathways.
