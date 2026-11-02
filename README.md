@@ -63,7 +63,7 @@ Reinforcement Learning (RL) provides an alternative by learning state transition
 
 Motivated by this potential, the following projects explore RL as a complementary bioinformatics approach, focusing on cellular state transitions, trajectory exploration, and gene regulatory dynamics.
 
-## [1. scDQ-path](https://github.com/AiJayce/scDQ-path/tree/scDQ-path)
+## [1. scDQ-path](https://github.com/AiJayce/scDQ-path)
 
 **scDQ-path** is a reinforcement learning-based framework for exploring single-cell dynamics and generating perturbation-associated virtual cells.
 
